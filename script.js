@@ -11,3 +11,7 @@ const jump = () => {
 
 }
 document.addEventListener('keydown', (jump))
+// Toque na tela (mobile)
+document.addEventListener('touchstart', () => {
+    jump();
+  });
