@@ -14,16 +14,33 @@
     position: relative;
     overflow: hidden;
 }
+.clouds{
+    position: absolute;
+    top: 20px;
+    width: 800px;
+    height: 400;
+    animation: cloud-animation 3s infinite linear;
+
+}
+/* .clouds2 {
+    position: absolute;
+    top: 20px;
+    right: 50px; ;
+    width: 600px;
+    animation: cloud2-animation 2s infinite linear;
+
+
+} */
 
 .pipe {
     position: absolute;
     bottom: 0;
-    width: 80px;
+    width: 90px;
     animation: pipe-animation 2s infinite linear;
 }
 
 .mario{
-    width: 150px;
+    width: 200px;
     position: absolute;
     bottom: 0;
 }
@@ -33,8 +50,23 @@
 
 }
 
+/* @keyframes cloud2-animation {
+    from {
+        right: -90px;
+    }
+    to{
+        right: 100%;
+    }
+} */
 
-
+@keyframes cloud-animation{
+    from {
+        right: -90px;
+    }
+    to{
+        right: 100%;
+    }
+}
 @keyframes pipe-animation {
     from {
         right: -80px;
