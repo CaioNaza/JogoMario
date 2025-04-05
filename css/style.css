@@ -5,8 +5,10 @@
 }
 
 .game-board {
-    width: 80%;
-    height: 500px;
+    width: 100%;
+    max-width: 1920px;
+    height: 100vh;
+    max-height: 1080px;
     border: 1px solid #333;
     margin: 0 auto;
     position: relative;
