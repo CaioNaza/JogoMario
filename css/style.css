@@ -4,39 +4,47 @@
     box-sizing: boarder-box;
 }
 
+
+
+.play-again {
+
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    cen
+}
+
 .game-board {
     width: 100%;
-    max-width: 1920px;
-    height: 100vh;
-    max-height: 1080px;
-    border: 1px solid #333;
+    max-width: 1534px;
+    height: 750px;
+    max-height: 95%;
+    border-bottom: 25px solid #105908;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    background-color: skyblue;
+
 }
 .clouds{
     position: absolute;
     top: 20px;
     width: 800px;
     height: 400;
-    animation: cloud-animation 3s infinite linear;
+    animation: cloud-animation 20s infinite linear;
 
 }
-/* .clouds2 {
-    position: absolute;
-    top: 20px;
-    right: 50px; ;
-    width: 600px;
-    animation: cloud2-animation 2s infinite linear;
 
-
-} */
 
 .pipe {
     position: absolute;
     bottom: 0;
     width: 90px;
     animation: pipe-animation 2s infinite linear;
+    le
 }
 
 .mario{
@@ -46,18 +54,10 @@
 }
 
 .jump{
-    animation: mario-jump 700ms ease-out;
+    animation: mario-jump 500ms ease-out;
 
 }
 
-/* @keyframes cloud2-animation {
-    from {
-        right: -90px;
-    }
-    to{
-        right: 100%;
-    }
-} */
 
 @keyframes cloud-animation{
     from {
