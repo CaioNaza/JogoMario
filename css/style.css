@@ -129,27 +129,3 @@
     
 }
 
-/* Responsividade para rodar melhor em outros dispositivos */
-@media (max-width: 600px) {
-    .game-over {
-      font-size: 1.2rem;
-      padding: 15px 25px;
-    }
-  
-    .mario {
-      width: 18vw;
-    }
-  
-    .pipe {
-      width: 12vw;
-    }
-  
-    .clouds {
-      width: 80vw;
-    }
-  
-    .play-again {
-      font-size: 0.9rem;
-      padding: 8px 15px;
-    }
-  }

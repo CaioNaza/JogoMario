@@ -19,7 +19,7 @@ const jump = () => {
     }, 700);
 
 }
-document.addEventListener('keydown', (jump))
+document.addEventListener('keydown' , (jump))
 
 // Toque na tela (mobile)
 document.addEventListener('touchstart', () => {
